@@ -1,6 +1,6 @@
-package rectangle;
+package shape;
 
-public class Rectangle {
+public class Rectangle extends Shape {
     public int width;
     public int height;
     public Rectangle(int width, int height) {
