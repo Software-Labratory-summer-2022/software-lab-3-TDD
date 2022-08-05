@@ -9,7 +9,7 @@ public class TestRectangle {
     public void testRectangleArea() {
         Rectangle rectangle = new Rectangle(5, 7);
         int area = rectangle.computeArea();
-        assertEquals(area, 35);
+        assertEquals(35, area);
     }
 
     @Test
@@ -18,6 +18,6 @@ public class TestRectangle {
         assertEquals(rectangle.computeArea(), 1);
         rectangle.setWidth(10);
         rectangle.setHeight(9);
-        assertEquals(rectangle.computeArea(), 90);
+        assertEquals(90, rectangle.computeArea());
     }
 }

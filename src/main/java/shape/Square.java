@@ -7,6 +7,10 @@ public class Square extends Shape {
         this.side = side;
     }
 
+    public void setSide(int side) {
+        this.side = side;
+    }
+
     public int computeArea() {
         return this.side * this.side;
     }

@@ -9,6 +9,16 @@ public class TestSquare {
     public void testSquareArea() {
         Square square = new Square(5);
         int area = square.computeArea();
-        assertEquals(area, 25);
+        assertEquals(25, area);
     }
+
+    @Test
+    public void testSquareSetter() {
+        Square square = new Square(5);
+        square.setSide(6);
+        int area = square.computeArea();
+        assertEquals(36, area);
+
+    }
+
 }
