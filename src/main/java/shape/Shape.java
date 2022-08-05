@@ -1,5 +1,5 @@
 package shape;
 
 public abstract class Shape {
-  public abstract int computeArea();
+    public abstract int computeArea();
 }
